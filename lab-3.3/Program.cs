@@ -13,7 +13,7 @@ namespace lab_3._3
                 int n = int.Parse(Console.ReadLine());
                 Console.WriteLine("Введите x:");
                 double x = double.Parse(Console.ReadLine());
-                double S = 0;
+                double S = 1;
                 for (int i = 1; i <= n; i++)
                 {
                     long F = 1;
