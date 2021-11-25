@@ -18,7 +18,7 @@ namespace lab_3._3
                 {
                     long F = 1;
                     for (int j = 1; j < 2 * i - 1; j++) F *= j;
-                    S += Math.Sin((2 * i - 1) * Math.Pow(x, 2 * i - 1)) / F;
+                    S += Math.Pow(x, 2*i-1)*Math.Sin(i - 1)*(Math.PI/4) / F;
                 }
                 Console.WriteLine("S={0:F2}", S);
             }
